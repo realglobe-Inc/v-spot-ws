@@ -3,14 +3,16 @@
 const vSpotWS = require('v-spot-ws')
 
 async function tryExample () {
+  const port = 8080
   const Spot = vSpotWS()
 
   const NewYork = vSpotWS.clinet()
   const Japan = vSpotWS.clinet()
 
-  await Spot.listen()
-  await NewYork.connect(Spot)
-  await Japan.connect(Spot)
+  await Spot.listen(port)
+
+  await NewYork.connect(`http://localhost:${port}`)
+  await Japan.connect(`http://localhost:${port}`)
 
   {
     class Person {
