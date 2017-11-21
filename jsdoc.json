@@ -4,7 +4,7 @@
             "name": "create",
             "access": "",
             "virtual": false,
-            "description": "Create a VSpotWs instance",
+            "description": "Create a VSpotWS instance",
             "parameters": [
                 {
                     "name": "args",
@@ -17,7 +17,7 @@
             ],
             "examples": [],
             "returns": {
-                "type": "VSpotWs",
+                "type": "VSpotWS",
                 "description": ""
             }
         },
@@ -25,7 +25,7 @@
             "name": "create",
             "access": "",
             "virtual": false,
-            "description": "Create a VSpotWs instance",
+            "description": "Create a VSpotWS instance",
             "parameters": [
                 {
                     "name": "args",
@@ -38,36 +38,100 @@
             ],
             "examples": [],
             "returns": {
-                "type": "VSpotWs",
+                "type": "VSpotWS",
                 "description": ""
             }
         }
     ],
     "classes": [
         {
-            "name": "VSpotW",
+            "name": "VSpotWS",
             "description": "",
             "extends": [],
             "access": "",
             "virtual": false,
             "fires": "",
             "constructor": {
-                "name": "VSpotW",
+                "name": "VSpotWS",
                 "description": "",
                 "parameters": [],
                 "examples": []
             }
         },
         {
-            "name": "VSpotW",
+            "name": "VSpotWSClient",
+            "description": "",
+            "extends": [
+                "VSpotClient"
+            ],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "VSpotWSClient",
+                "description": "Client instance",
+                "parameters": [],
+                "examples": []
+            }
+        },
+        {
+            "name": "VSpotWSServer",
+            "description": "",
+            "extends": [
+                "VSpotServer"
+            ],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "VSpotWSServer",
+                "description": "Server instance",
+                "parameters": [],
+                "examples": []
+            }
+        },
+        {
+            "name": "VSpotWS",
             "description": "",
             "extends": [],
             "access": "",
             "virtual": false,
             "fires": "",
             "constructor": {
-                "name": "VSpotW",
+                "name": "VSpotWS",
                 "description": "",
+                "parameters": [],
+                "examples": []
+            }
+        },
+        {
+            "name": "VSpotWSClient",
+            "description": "",
+            "extends": [
+                "VSpotClient"
+            ],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "VSpotWSClient",
+                "description": "Client instance",
+                "parameters": [],
+                "examples": []
+            }
+        },
+        {
+            "name": "VSpotWSServer",
+            "description": "",
+            "extends": [
+                "VSpotServer"
+            ],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "VSpotWSServer",
+                "description": "Server instance",
                 "parameters": [],
                 "examples": []
             }
