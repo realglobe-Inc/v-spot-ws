@@ -1,19 +1,23 @@
-# v-spot-ws@1.0.0
+# v-spot-ws@1.0.1
 
 Web socket implemantion of v-spot
 
 + Functions
   + [create(args)](#v-spot-ws-function-create)
-+ [`VSpotW`](#v-spot-ws-classes) Class
-  + [new VSpotW()](#v-spot-ws-classes-v-spot-w-constructor)
++ [`VSpotWS`](#v-spot-ws-classes) Class
+  + [new VSpotWS()](#v-spot-ws-classes-v-spot-w-s-constructor)
++ [`VSpotWSClient`](#v-spot-ws-classes) Class
+  + [new VSpotWSClient()](#v-spot-ws-classes-v-spot-w-s-client-constructor)
++ [`VSpotWSServer`](#v-spot-ws-classes) Class
+  + [new VSpotWSServer()](#v-spot-ws-classes-v-spot-w-s-server-constructor)
 
 ## Functions
 
 <a class='md-heading-link' name="v-spot-ws-function-create" ></a>
 
-### create(args) -> `VSpotWs`
+### create(args) -> `VSpotWS`
 
-Create a VSpotWs instance
+Create a VSpotWS instance
 
 | Param | Type | Description |
 | ----- | --- | -------- |
@@ -23,18 +27,58 @@ Create a VSpotWs instance
 
 <a class='md-heading-link' name="v-spot-ws-classes"></a>
 
-## `VSpotW` Class
+## `VSpotWS` Class
 
 
 
 
 
 
-<a class='md-heading-link' name="v-spot-ws-classes-v-spot-w-constructor" ></a>
+<a class='md-heading-link' name="v-spot-ws-classes-v-spot-w-s-constructor" ></a>
 
-### new VSpotW()
+### new VSpotWS()
 
-Constructor of VSpotW class
+Constructor of VSpotWS class
+
+
+
+<a class='md-heading-link' name="v-spot-ws-classes"></a>
+
+## `VSpotWSClient` Class
+
+Client instance
+
+**Extends**: 
+
++ `VSpotClient`
+
+
+
+<a class='md-heading-link' name="v-spot-ws-classes-v-spot-w-s-client-constructor" ></a>
+
+### new VSpotWSClient()
+
+Constructor of VSpotWSClient class
+
+
+
+<a class='md-heading-link' name="v-spot-ws-classes"></a>
+
+## `VSpotWSServer` Class
+
+Server instance
+
+**Extends**: 
+
++ `VSpotServer`
+
+
+
+<a class='md-heading-link' name="v-spot-ws-classes-v-spot-w-s-server-constructor" ></a>
+
+### new VSpotWSServer()
+
+Constructor of VSpotWSServer class
 
 
 
