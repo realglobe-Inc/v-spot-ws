@@ -1,6 +1,6 @@
 {
   "name": "v-spot-ws",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Web socket implemantion of v-spot",
   "main": "lib",
   "browser": "shim",
