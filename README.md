@@ -121,7 +121,7 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [v-spot-ws@1.0.4](./doc/api/api.md)
++ [v-spot-ws@1.0.5](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#v-spot-ws-function-create)
   + [VSpotWS](./doc/api/api.md#v-spot-w-s-class)
 
