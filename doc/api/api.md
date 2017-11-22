@@ -1,6 +1,6 @@
 # v-spot-ws@1.0.4
 
-Web socket implemantion of v-spot
+Web socket impl of v-spot
 
 + Functions
   + [create(args)](#v-spot-ws-function-create)

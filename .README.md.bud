@@ -25,7 +25,7 @@ module.exports = readmeMdBud({
       jsdoc,
       {
         classNames: [
-          'VSpotWs'
+          'VSpotWS'
         ],
         functionNames: [
           'create'
