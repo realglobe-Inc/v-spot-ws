@@ -121,7 +121,7 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [v-spot-ws@1.0.3](./doc/api/api.md)
++ [v-spot-ws@1.0.4](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#v-spot-ws-function-create)
 
 
@@ -147,8 +147,10 @@ This software is released under the [MIT License](https://github.com/realglobe-I
 Links
 ------
 
-+ [THE Labo][t_h_e_labo_url]
++ [v][v_url]
++ [Realglobe, Inc.][realglobe,_inc__url]
 
-[t_h_e_labo_url]: https://github.com/the-labo
+[v_url]: https://github.com/realglobe-Inc/v
+[realglobe,_inc__url]: http://realglobe.jp
 
 <!-- Links End -->
