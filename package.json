@@ -30,7 +30,7 @@
   "homepage": "https://github.com/realglobe-Inc/v-spot-ws#readme",
   "dependencies": {
     "uuid": "^3.1.0",
-    "v-spot": "^1.1.2",
+    "v-spot": "^1.2.0",
     "ws": "^3.3.2"
   },
   "devDependencies": {
