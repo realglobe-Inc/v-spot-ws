@@ -60,12 +60,15 @@ describe('v-spot-w-s', () => {
             await john.hi('Calling from Japan!'),
             'hi, Calling from Japan!'
           )
+
+          await client01.disconnect()
+
+          await john.hi('Calling from Japan!') // Try after disconnect
         }
         await client03.disconnect()
       } catch (e) {
         console.error(e)
       }
-      await client01.disconnect()
 
       await server.close()
     }
