@@ -7,7 +7,11 @@
 const VSpotWS = require('../lib/VSpotWS')
 const {ok, equal} = require('assert')
 const aport = require('aport')
-describe('v-spot-w-s', () => {
+const asleep = require('asleep')
+
+describe('v-spot-w-s', function () {
+  this.timeout(8000)
+
   before(() => {
   })
 
@@ -17,6 +21,7 @@ describe('v-spot-w-s', () => {
   it('Do test', async () => {
     const port = await aport()
     const server = new VSpotWS.Server()
+    server.keepAliveInterval = 300
     const client01 = new VSpotWS.Client()
     const client02 = new VSpotWS.Client()
     const client03 = new VSpotWS.Client()
@@ -49,8 +54,6 @@ describe('v-spot-w-s', () => {
 
     } finally {
 
-      await client02.disconnect()
-
       try {
         await client03.connect(`http://localhost:${port}`)
         {
@@ -70,6 +73,9 @@ describe('v-spot-w-s', () => {
         console.error(e)
       }
 
+      await asleep(500)
+      console.log('hoge')
+      await client02.disconnect()
       await server.close()
     }
   })

@@ -37,6 +37,7 @@
   },
   "devDependencies": {
     "aport": "^2.0.0",
+    "asleep": "^1.0.3",
     "mocha": "^4.0.1",
     "the-script-build": "^2.0.0",
     "the-script-jsdoc": "^2.0.1",
