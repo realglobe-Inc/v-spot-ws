@@ -73,9 +73,9 @@ describe('v-spot-w-s', function () {
         console.error(e)
       }
 
-      await asleep(500)
+      await asleep(800)
       console.log('hoge')
-      await client02.disconnect()
+      // await client02.disconnect()
       await server.close()
     }
   })
