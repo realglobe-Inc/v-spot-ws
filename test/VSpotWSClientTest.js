@@ -5,7 +5,7 @@
 'use strict'
 
 const VSpotWSClient = require('../lib/VSpotWSClient')
-const { ok, equal } = require('assert')
+const {ok, equal} = require('assert')
 
 describe('v-spot-w-s-client', () => {
   before(() => {

@@ -1,4 +1,4 @@
-# v-spot-ws@1.1.3
+# v-spot-ws@1.1.4
 
 Web socket impl of v-spot
 
