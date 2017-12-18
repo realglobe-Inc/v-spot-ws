@@ -31,6 +31,10 @@ describe('v-spot-w-s', function () {
           async hi (msg) {
             return `hi, ${msg}`
           }
+
+          async howMany () {
+            return 3
+          }
         }
 
         // Create a instance to a spot
@@ -47,8 +51,13 @@ describe('v-spot-w-s', function () {
         // Use remote instance
         const john = await client02.use('jp.realglobe.new-york.john')
         equal(
-          await john.hi('Calling from Japan!'),
+          await john.hi('Calling from Japan!',2,3),
           'hi, Calling from Japan!'
+        )
+
+        equal(
+          await john.howMany(),
+          3
         )
       }
 
