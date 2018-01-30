@@ -51,7 +51,7 @@ describe('v-spot-w-s', function () {
         // Use remote instance
         const john = await client02.use('jp.realglobe.new-york.john')
         equal(
-          await john.hi('Calling from Japan!',2,3),
+          await john.hi('Calling from Japan!', 2, 3),
           'hi, Calling from Japan!'
         )
 
@@ -83,7 +83,6 @@ describe('v-spot-w-s', function () {
       }
 
       await asleep(800)
-      console.log('hoge')
       await server.close()
     }
   })
